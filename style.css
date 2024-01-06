@@ -1,0 +1,152 @@
+body{
+    background-color: white;
+    max-width: 700px;
+    margin:  0 auto;
+}
+.header{
+    background-color:black;
+    padding: 2rem;
+    height: 4rem;
+}
+.header .branding a{
+    position: absolute;
+    left: 40%;
+    background-color: black;
+     
+   }  
+.love .img {
+   position: relative;
+    left: 5%;
+}
+
+.btn .btn__home{
+    background-color: black;
+    padding: 1rem;
+    width: 100%;
+}
+.btn .btn__home ul{
+display: flex;
+align-items: center;
+gap: 5rem;
+background-color: black;
+}
+ :root{
+    --black:#000000;
+    --white:#ffffff;
+ }
+ .btn .btn__home a{
+  gap: 5rem;
+ }
+ .btn {
+    border-style: 5rem;
+    border: 7px solid transparent;
+    width: 100%;
+ }
+ .btn.bg--black{
+    background-color: var(--black);
+    color: white;
+ }
+ .btn.bg--black:hover{
+    background-color: white;
+    color: red;
+ }
+ .last .text h3{
+    color: red;
+    font-size:1rem;
+ }
+ .last .text h1{
+    color: gray;
+    font-size: 1rem;
+ }
+.special {
+  background-color: black;
+  padding: 7rem;
+  height: 3rem;
+  width: 80%;
+}
+.special .day h1 {
+    color: white;
+    font-size:1.5rem;
+    text-align: center;
+}
+.special .day p{
+    color: gray;
+    font-size:0.7rem;
+    text-align: center;
+}
+.last .pic{
+    position: relative;
+}
+.btn.bg--white{
+    background: white;
+    color: red;
+    align-items: center;
+    border: 1px solid transparent;
+    padding: 0.5rem 1rem;
+
+} 
+.special  .btn a{
+    text-align: center;
+    width: 100%;
+    margin: 15rem;
+}
+.casual .style img{
+    position: relative;
+    left: 10%;
+}
+.casual .style h2 {
+    color: red;
+    font-size: 1rem;
+}
+.casual .style h1{
+    font-size: 2rem;
+}
+.casual .style p{
+    color: gray;
+    text-align:justify;
+}
+.combining .style img{
+    position: relative;
+   left: 10%;
+}
+.combining .style h2{
+    color: red;
+    font-size: 1rem;
+}
+.combining .style h1{
+    font-size: 2rem; 
+}
+.combining .style p{
+    color: gray;
+    text-align:justify;
+}
+.combining .btn a {
+    text-align: center;
+    width: 100%;
+    margin: 15rem;
+}
+
+.btn.bg--black{
+    background: black;
+    color:white;
+    align-items: center;
+    border: 1px solid transparent;
+    padding: 0.5rem 1rem;
+
+} 
+.casual .btn a {
+    text-align: center;
+    width: 100%;
+    margin: 15rem;
+}
+.footer {
+    background-color: #000000;
+    padding: 4rem  4rem;
+    height: 10rem; 
+    width: 100%;
+}
+.footer .lore p {
+    color: white;
+    font-size: 1rem;
+    text-align:left;
+}
